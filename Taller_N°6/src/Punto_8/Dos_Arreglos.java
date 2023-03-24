@@ -3,7 +3,7 @@ package Punto_8;
 import java.util.Scanner;
 
 public class Dos_Arreglos {
-	public static void main(String[] args) {
+	Dos_Arreglos(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] arregloA = null;
         int[] arregloB = null;
