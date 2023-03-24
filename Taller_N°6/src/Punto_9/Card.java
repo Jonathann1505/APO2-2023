@@ -21,8 +21,8 @@ public class Card {
 	    
 	    @Override
 	    public String toString() {
-	        String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
-	        String[] cardTypes = {"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
-	        return cardTypes[cardType - 1] + " of " + suits[suit - 1];
+	        String[] suits = {"Corazones", "Diamantes", "Trevoles", "Picas"};
+	        String[] cardTypes = {"Ace", "Dos", "Tres", "Cuatro", "Cinco", "Seis", "Siete", "Ocho", "Nueve", "Diez", "Jack", "Reina", "Rey"};
+	        return cardTypes[cardType - 1] + " De " + suits[suit - 1];
 	    }
 	}

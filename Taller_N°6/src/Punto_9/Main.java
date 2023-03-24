@@ -21,10 +21,10 @@ public class Main {
 	        Scanner scanner = new Scanner(System.in);
 	        
 	        while (hand.cardCount < 5 && totalPoints <= 21) {
-	            System.out.println("Quieres otra carta? (Y/N)");
+	            System.out.println("Quieres otra carta? (S/N)");
 	            String answer = scanner.nextLine();
 	            
-	            if (answer.equalsIgnoreCase("Y")) {
+	            if (answer.equalsIgnoreCase("S")) {
 	                Card newCard = Deck.cardArray[hand.cardCount + 1];
 	                hand.addCard(newCard);
 	                totalPoints += newCard.getPoints();
