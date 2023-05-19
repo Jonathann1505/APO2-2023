@@ -1,6 +1,6 @@
 import java.util.List;
 
-public abstract class naves_noTripuladas {
+public abstract class NaveNoTripulada {
 
 	public String nombre;
 	public List<String> combustible;
@@ -234,7 +234,7 @@ public abstract class naves_noTripuladas {
 			public interface Motor {
 				   public double getEmpuje();
 				}
-			public abstract class SondaPluton extends naves_noTripuladas {
+			public abstract class SondaPluton extends NaveNoTripulada {
 				   private String objetivo;
 
 				   public void setObjetivo(String objetivo) {
@@ -247,6 +247,9 @@ public abstract class naves_noTripuladas {
 
 				   public abstract void analizarObjetivo();
 				}
+
+
+			protected abstract String getProposito();
 }
 
 	

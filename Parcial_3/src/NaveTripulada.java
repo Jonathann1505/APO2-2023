@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class naves_Tripuladas {
+public class NaveTripulada {
 	// Variables 
 	private String proposito;
     private List<String> misiones;
@@ -11,7 +11,15 @@ public class naves_Tripuladas {
     
     
     
-    public void MisionEspacial(String proposito, List<String> misiones, List<String> centros_investigacion, double peso, double distancia_orbita, int capacidad_personas) {
+    
+
+
+	public NaveTripulada(String modelo, int capacidadPasajeros) {
+		
+	}
+
+
+	public void MisionEspacial(String proposito, List<String> misiones, List<String> centros_investigacion, double peso, double distancia_orbita, int capacidad_personas) {
         this.proposito = proposito;
         this.misiones = misiones;
         this.centros_investigacion = centros_investigacion;
@@ -108,6 +116,11 @@ public class naves_Tripuladas {
     public void acoplarseConOtrasNaves();
     public void probarEquiposElectronicos();
     }
+
+	public void realizarTareaEspacial() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 
